@@ -1,19 +1,19 @@
-package model;
+package model; 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.Entity; 
+import javax.persistence.GeneratedValue; 
+import javax.persistence.GenerationType; 
+import javax.persistence.Id; 
 
-@Entity
+@Entity // Indica que esta classe é uma entidade JPA que será mapeada para uma tabela no banco de dados
 public class Produto {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String nome;
-    private Double preco;
+    @Id // Indica que o campo id é a chave primária da entidade
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Especifica que o id será gerado automaticamente pelo banco de dados
+    private Long id; // Campo id armazena a chave primária do produto
+    private String nome; // Campo nome que armazena o nome do produto
+    private Double preco; // Campo preco que armazena o preço do produto
 
-    // Getters e Setters
+    // Métodos Getters e Setters para acessar e modificar os campos privados
     public Long getId() {
         return id;
     }
@@ -38,4 +38,3 @@ public class Produto {
         this.preco = preco;
     }
 }
-
