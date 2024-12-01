@@ -27,7 +27,7 @@ TESTE O FUNCIONAMENTO DE CADA CLASSE CRIADA, PARA ISSO COMPILE A CLASSE E CONFIR
    - Baixe e siga as instruções de instalação para a IDE escolhida.
 3. Crie e execute o projeto:
    - Abra a IDE e crie um novo projeto Java.
-   - Adicione a classe "ConexaoBD", "InserirDados", "AtualizarDados", "DeletarDados", "LerDados" e "Main".
+   - Adicione a classe "ProdutoDAO", "Main" e "Produto".
    - Compile e execute o projeto pelo método "main".
    
 # 🛠 Construído com   
