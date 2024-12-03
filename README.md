@@ -1,18 +1,18 @@
-# CONEXAOBD
+# JPA
 
 Este repositório contém um projeto Maven que implementa na pasta scr/main/java as classes "ProdutoDAO", "Main" e "Produto", na pasta scr/main/resources cria o a pasta "META-INF" e dentro dessa pasta cria o arquivo "persistence.xml" e um sql para criar a tabela com os campos "ID", "NOME" e "PREÇO". Essas classes seguem o método CVM. 
 
 # 🚀 Começando  
 
-FAÇA A CONEXÃO PELO APLICATIVO WAMPSERVER E APÓS FAZER A CONEXÃO PELO ARQUIVO PERSISTENCE, CRIE AS SEGUINTES CLASSES:
+FAÇA A CONEXÃO PELO APLICATIVO WAMPSERVER E APÓS FAZER A CONEXÃO PELO MÉTODO MVC E CONFIGURAR O ARQUIVO PERSISTENCE.XML E O POM.XML, CRIE AS SEGUINTES CLASSES:
 
 ProdutoDAO, Main e Produto
 
-CADA CLASSE TEM UMA FUNÇÃO PARA O PROJETO
+CADA CLASSE TEM UMA FUNÇÃO PARA O PROJETO FUNCIONAR;
 
 TESTE O PROJETO E SEU FUNCIONAMENTO;
 
-TESTE O FUNCIONAMENTO DE CADA CLASSE CRIADA, PARA ISSO COMPILE A CLASSE E CONFIRA NO CONSOLE E NO PHPMYADMIN;
+TESTE O FUNCIONAMENTO DE CADA CLASSE CRIADA, PARA ISSO COMPILE A CLASSE E CONFIRA NO CONSOLE E NO PHPMYADMIN.
 
 # 📋 Pré-requisitos
 - Java Development Kit (JDK)
