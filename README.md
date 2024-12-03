@@ -1,6 +1,6 @@
 # JPA
 
-Este repositório contém um projeto Maven que implementa na pasta scr/main/java as classes "ProdutoDAO", "Main" e "Produto", na pasta scr/main/resources cria o a pasta "META-INF" e dentro dessa pasta cria o arquivo "persistence.xml" e um sql para criar a tabela com os campos "ID", "NOME" e "PREÇO". Essas classes seguem o método CVM. 
+Este repositório contém um projeto Maven que implementa na pasta scr/main/java as classes "ProdutoDAO", "Main" e "Produto", na pasta scr/main/resources cria o a pasta "META-INF" e dentro dessa pasta cria o arquivo "persistence.xml" e um sql para criar a tabela com os campos "ID", "NOME" e "PREÇO". Essas classes seguem o método MVC. 
 
 # 🚀 Começando  
 
